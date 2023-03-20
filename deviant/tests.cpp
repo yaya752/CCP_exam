@@ -4,8 +4,8 @@
 
 #include "catch.hpp"
 #include "deviant.hpp"
+ 
 
-/*
 TEST_CASE("Personne1") {
 	  const char * nom = "Jeffrey Dean Morgan";
     Personne p1(nom);
@@ -15,7 +15,7 @@ TEST_CASE("Personne1") {
     p1.setNom("negan");
     
     REQUIRE("negan" == p1.getNom());
-} */
+} 
 
 /*
 TEST_CASE("Personne2") {
