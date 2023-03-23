@@ -1,6 +1,6 @@
 #include "sms.hpp"
 int Message::cle = 0;
-Telephone::Telephone() : numero("")
+Telephone::Telephone() : numero(""),r(nullptr),nbmess(0)
 {
 }
 Telephone::Telephone(std::string nom, Reseau *res) : numero(nom), r(res), nbmess(0)
