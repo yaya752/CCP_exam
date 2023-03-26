@@ -125,7 +125,6 @@ void Famille::ajouter(Gangster * soldat)
 void Famille::listePersonnes(std::ostream & os) const
 {
     std::vector<std::string> v;
-    std::sort(v.begin(),v.end());
     for(int i = 0; i<pointeur-1; i++)
     {
         if (famille[i]->getNom() != "")
